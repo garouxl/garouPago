@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "import/no-unresolved": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "import/no-named-as-default": "off",
+  },
+  "overrides": [
+    {
+      "files": [
+        "./src/config/**",
+        "./src/modules/**/pages/**",
+        "./src/**/graphql/**",
+        "./src/mocks/**",
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)",
+      ],
+    },
+    {
+      "files": ["./src/config/i18n.ts"],
+      "rules": {
+        "import/no-named-as-default": "off",
+      },
+    },
+  ],
+}
