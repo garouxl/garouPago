@@ -6,11 +6,28 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
 
-node_modules
+# compiled output
 dist
 dist-ssr
 *.local
+build
+tmp
+/out-tsc
+
+# dependencies
+node_modules
+
+# System Files
+.DS_Store
+Thumbs.db
 
 # Editor directories and files
 .vscode/*
