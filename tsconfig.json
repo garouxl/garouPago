@@ -3,13 +3,14 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "assets/*": ["src/assets/*"],
-      "config/*": ["src/config/*"],
+      "@/assets/*": ["src/assets/*"],
+      "@/config/*": ["src/config/*"],
       "@/constants/*": ["src/constants/*"],
       "@/core/*": ["src/core/*"],
       "@/layout/*": ["src/layout/*"],
       "@/pages/*": ["src/pages/*"],
       "@/lib/*": ["src/lib/*"],
+      "@/shared/*": ["src/shared/*"],
       "@/types/*": ["src/types/*"]
     }
   },

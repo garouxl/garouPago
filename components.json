@@ -15,8 +15,8 @@
   "aliases": {
     "lib": "@/lib",
     "components": "@/lib/components",
-    "utils": "@/lib/utils",
     "ui": "@/lib/components/ui",
+    "utils": "@/lib/utils",
     "hooks": "@/lib/hooks"
   },
   "menuColor": "default",
