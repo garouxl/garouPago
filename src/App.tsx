@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Button } from '@/lib/components/ui/button'
 import { Card } from '@/lib/components/ui/card'
-import { ParticlesBackground } from '@/layout/ParticlesBackground'
+import ParticlesBackground from '@/layout/ParticlesBackground'
 import NoiseBackground from '@/layout/NoiseBackground'
 
 function App() {
